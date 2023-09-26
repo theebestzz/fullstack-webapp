@@ -11,7 +11,7 @@ class Config {
   public REDIS_HOST: string | undefined;
 
   private readonly DEFAULT_DATABASE_URL =
-    "mongodb+srv://fullstack-webapp:na2C64iKpARo68NR@fullstack-webapp.zslnk1g.mongodb.net/socialmedia-app?retryWrites=true&w=majority";
+    "";
 
   constructor() {
     this.DATABASE_URL = process.env.DATABASE_URL || this.DEFAULT_DATABASE_URL;
